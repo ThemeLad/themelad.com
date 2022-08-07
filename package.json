@@ -1,18 +1,15 @@
 {
-  "name": "themelad",
+  "name": "themelad.com",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "devDependencies": {
-    "astro": "^0.25.2",
-    "@astrojs/react": "^0.0.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "dependencies": {}
+    "astro": "^1.0.0-rc.7"
+  }
 }
