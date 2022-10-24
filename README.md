@@ -1,2 +1,2 @@
-# ThemeLad
-The one and only website for themelad
+# ThemeLad.com
+The user-facing themelad website
