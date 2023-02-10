@@ -1,22 +1,28 @@
 {
-  "name": "themelad",
+  "name": "themelad.com",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThemeLad/themelad.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThemeLad/themelad.com/issues"
+  },
+  "homepage": "https://github.com/ThemeLad/themelad.com#readme",
   "dependencies": {
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.8",
-    "eslint": "8.27.0",
-    "eslint-config-next": "13.0.3",
-    "next": "13.0.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.8.4"
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
