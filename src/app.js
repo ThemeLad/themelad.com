@@ -15,23 +15,26 @@ app.set('views', path.join(__dirname, './views'));
 
 // Routes
 app.get('/', (req, res) => {
-  res.render('home', { meta_title: 'Home | ThemeLad'});
+  res.render('home', {
+    meta_title: 'Home | ThemeLad',
+    is_home_page: true
+  });
 });
 
 app.get('/themes', (req, res) => {
-  res.render('themes', { meta_title: 'Themes | ThemeLad'});
+  res.render('themes', { meta_title: 'Themes | ThemeLad' });
 });
 
 app.get('/pricing', (req, res) => {
-  res.render('pricing', { meta_title: 'Pricing | ThemeLad'});
+  res.render('pricing', { meta_title: 'Pricing | ThemeLad' });
 });
 
 app.get('/blog', (req, res) => {
-  res.render('blog', { meta_title: 'Blog | ThemeLad'});
+  res.render('blog', { meta_title: 'Blog | ThemeLad' });
 });
 
 app.get('/contact', (req, res) => {
-  res.render('contact', { meta_title: 'Contact Us | ThemeLad'});
+  res.render('contact', { meta_title: 'Contact Us | ThemeLad' });
 });
 
 app.listen(PORT, () => {
