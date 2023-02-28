@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
+import UnderConstruction from '@/components/UnderConstruction';
 
 export default function Blog() {
   return (
@@ -11,7 +12,7 @@ export default function Blog() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>Blog</h1>
+      <UnderConstruction />
     </>
   );
 };

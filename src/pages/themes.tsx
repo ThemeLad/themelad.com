@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
+import UnderConstruction from '@/components/UnderConstruction';
 
 export default function Themes() {
   return (
@@ -11,7 +12,7 @@ export default function Themes() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>Themes</h1>
+      <UnderConstruction />
     </>
   );
 };

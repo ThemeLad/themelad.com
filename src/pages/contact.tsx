@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
+import UnderConstruction from '@/components/UnderConstruction';
 
 export default function Contact() {
   return (
@@ -11,7 +12,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>Contact</h1>
+      <UnderConstruction />
     </>
   );
 };

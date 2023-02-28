@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar is-black" role="navigation" aria-label="main navigation">
       <div className="container">
         <div className="navbar-brand">
-          <a className="navbar-item" href="/">ThemeLad</a>
+          <Link className="navbar-item" href="/">ThemeLad</Link>
           <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -22,8 +22,7 @@ const Navbar = () => {
             <Link className="navbar-item" href="/contact">Contact</Link>
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is-link">Sign Up</a>
-                <a className="button is-light">Login</a>
+                <a className="button is-success has-text-weight-bold">Sign In</a>
               </div>
             </div>
           </div>

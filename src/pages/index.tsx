@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
+import { ArrowRight } from '@/components/Icons';
 
 export default function Home() {
   return (
@@ -11,12 +12,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <section className="hero is-medium is-link">
+      <section className="hero is-large is-link">
         <div className="hero-body">
-          <h1 className="title has-text-centered">Premium Themes for Static Websites</h1>
-          <h2 className="subtitle has-text-centered">Choose from a variety of living, standards-compliant themes, tailored for static site generators</h2>
-          <div className="has-text-centered">
-            <button className='button is-light'>Explore Themes</button>
+          <div className="container">
+            <div className='columns'>
+              <div className='column is-half'>
+                <h1 className="title is-size-1 mb-4">Premium Themes for Static Websites</h1>
+                <h2 className="subtitle mt-0">Choose from a variety of living, standards-compliant themes, tailored for static site generators</h2>
+                <div>
+                  <button className='button is-medium is-success'><span className='mr-2'>Explore Themes</span> <ArrowRight color='#fff' /></button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
