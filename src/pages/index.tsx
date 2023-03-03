@@ -22,11 +22,11 @@ export default function Home() {
               <div className='column is-half is-offset-one-quarter'>
                 <h1 className={`title is-size-1 my-4 ${styles.hasTextBolder}`}>
                   A <span className='has-text-green'>Theme Automation</span> Tool for <span className='is-underlined has-text-pink'>Static Websites</span></h1>
-                <h2 className='subtitle my-5'></h2>
+                <h2 className='subtitle mt-6 mb-5 has-text-grey-lighter'>Create themes that seamlessly support an ever-increasing number of static site generators, flat file CMS and blogging platforms.</h2>
                 <div>
                   <button className='button is-medium is-success is-rounded is-outlined '>
                     <a href='https://github.com/ThemeLad' target='_blank'>
-                      <span className='mr-3'>See It on Github</span>
+                      <span className='mr-3'>Join Us on Github</span>
                       <span style={{ position: 'relative', top: '5px' }}><Github color='#fff' /></span>
                     </a>
                   </button>
