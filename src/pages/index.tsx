@@ -19,15 +19,17 @@ export default function Home() {
         <div className='hero-body has-text-centered'>
           <div className='container'>
             <div className='columns'>
-              <div className='column is-half is-offset-one-quarter'>
+              <div className='column is-8 is-offset-2'>
                 <h1 className={`title is-size-1 my-4 ${styles.hasTextBolder}`}>
-                  A <span className='has-text-green'>Theme Automation</span> Tool for <span className='is-underlined has-text-pink'>Static Websites</span></h1>
-                <h2 className='subtitle mt-6 mb-5 has-text-grey-lighter'>Create themes that seamlessly support an ever-increasing number of static site generators, flat file CMS and blogging platforms.</h2>
+                  <p>An <span className='has-text-green'>Open Source</span> Theme Library</p>
+                  <p>for <span className='is-underlined has-text-pink'>Static Websites</span></p>
+                </h1>
+                <h2 className='subtitle mt-6 mb-5 has-text-grey-light'>ThemeLad aims to couple beautiful design with the power of automation to create and maintain themes across a wide variety of static site generators and flat file CMS platforms.</h2>
                 <div>
                   <button className='button is-medium is-success is-rounded is-outlined '>
                     <a href='https://github.com/ThemeLad' target='_blank'>
-                      <span className='mr-3'>Join Us on Github</span>
-                      <span style={{ position: 'relative', top: '5px' }}><Github color='#fff' /></span>
+                      <span className='mr-3'>Join us on Github</span>
+                      <span style={{ position: 'relative', top: '4px' }}><Github color='#fff' /></span>
                     </a>
                   </button>
                 </div>
